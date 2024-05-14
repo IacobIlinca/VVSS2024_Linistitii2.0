@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="org.Linistitii2.scenarios.ProductManipulationScenarioStory" skipped="0" tests="1" time="12.74" timestamp="2024-05-14 08:03:33"><testcase classname="org.Linistitii2.scenarios.ProductManipulationScenarioStory" name="Searching and manipulating product"><failure message="Expected enabled element was not enabled&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'R7MIRI', ip: '192.168.100.90', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'&#10;Driver info: driver.version: unknown&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'R7MIRI', ip: '192.168.100.90', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'R7MIRI', ip: '192.168.100.90', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'R7MIRI', ip: '192.168.100.90', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: driver.version: unknown</failure><system-err>Expected enabled element was not enabled
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'R7MIRI', ip: '192.168.100.90', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'R7MIRI', ip: '192.168.100.90', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: driver.version: unknown&#13;
+org.Linistitii2.pages.LumaMagentoPage.type_in_search_field_and_presses_enter(LumaMagentoPage.java:29)&#13;
+org.Linistitii2.steps.serenity.EndUserSteps.types_in_search_field_and_presses_enter(EndUserSteps.java:21)&#13;
+org.Linistitii2.scenarios.ProductManipulationScenarioStory.searching_by_text_should_display_first_product(ProductManipulationScenarioStory.java:43)&#13;
+org.Linistitii2.scenarios.ProductManipulationScenarioStory.searching_and_manipulating_product(ProductManipulationScenarioStory.java:35)&#13;
+</system-err></testcase></testsuite>
