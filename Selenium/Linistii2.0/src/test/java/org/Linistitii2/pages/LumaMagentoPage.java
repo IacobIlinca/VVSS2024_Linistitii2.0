@@ -5,12 +5,14 @@ import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.annotations.DefaultUrl;
 import net.thucydides.core.pages.PageObject;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
 import java.util.stream.Collectors;
-//@DefaultUrl("https://magento.softwaretestingboard.com/")
-@DefaultUrl("https://www.saucedemo.com/")
+@DefaultUrl("https://magento.softwaretestingboard.com/")
+//@DefaultUrl("https://www.saucedemo.com/")
 public class LumaMagentoPage extends PageObject {
 
     @FindBy(name = "q")
@@ -110,5 +112,10 @@ public class LumaMagentoPage extends PageObject {
     public String getEmptyCartMessage() {
         return find(By.xpath("//strong[@class='subtitle empty']"))
                 .getTextContent();
+    }
+
+    public void waitUntilPageIsLoaded(){
+        new WebDriverWait(getDriver(), 500).until(
+                webDriver -> ((JavascriptExecutor) webDriver).executeScript("return document.readyState").equals("complete"));
     }
 }

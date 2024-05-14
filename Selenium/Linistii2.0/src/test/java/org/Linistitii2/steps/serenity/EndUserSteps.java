@@ -58,6 +58,7 @@ public class EndUserSteps {
 
     @Step
     public void should_see_text_in_page_success_alert(String text) {
+        ecommercePage.waitUntilPageIsLoaded();
         assertThat(ecommercePage.getAlertSuccessMessage(), containsString(text));
     }
 
