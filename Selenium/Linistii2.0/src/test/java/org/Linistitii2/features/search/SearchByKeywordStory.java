@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 
 @RunWith(SerenityParameterizedRunner.class)
-@UseTestDataFrom("org/Linistii2/features/search/data.csv")
+@UseTestDataFrom("org/Linistitii2/features/search/data.csv")
 public class SearchByKeywordStory {
 
     @Managed(uniqueSession = true, driver = "firefox")

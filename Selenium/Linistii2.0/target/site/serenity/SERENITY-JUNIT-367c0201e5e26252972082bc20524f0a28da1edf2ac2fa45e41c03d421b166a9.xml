@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="org.Linistitii2.features.search.SearchByKeywordStory" skipped="0" tests="2" time="20.85" timestamp="2024-05-16 01:47:37"><testcase classname="org.Linistitii2.features.search.SearchByKeywordStory" name="Searching by keyword should display result"/></testsuite>

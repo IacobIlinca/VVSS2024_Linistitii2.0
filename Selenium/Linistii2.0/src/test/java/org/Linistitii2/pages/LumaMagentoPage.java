@@ -11,6 +11,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
 import java.util.stream.Collectors;
+
+import static java.lang.Thread.sleep;
+
 @DefaultUrl("https://magento.softwaretestingboard.com/")
 //@DefaultUrl("https://www.saucedemo.com/")
 public class LumaMagentoPage extends PageObject {
@@ -115,7 +118,12 @@ public class LumaMagentoPage extends PageObject {
     }
 
     public void waitUntilPageIsLoaded(){
-        new WebDriverWait(getDriver(), 500).until(
-                webDriver -> ((JavascriptExecutor) webDriver).executeScript("return document.readyState").equals("complete"));
+//        new WebDriverWait(getDriver(), 500).until(
+//                webDriver -> ((JavascriptExecutor) webDriver).executeScript("return document.readyState").equals("complete"));
+//        try {
+//            sleep(500);
+//        } catch (InterruptedException e) {
+//            System.out.println(e.getMessage());
+//        }
     }
 }

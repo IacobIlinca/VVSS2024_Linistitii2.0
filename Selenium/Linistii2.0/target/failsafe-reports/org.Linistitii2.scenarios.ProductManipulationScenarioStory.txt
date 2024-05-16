@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: org.Linistitii2.scenarios.ProductManipulationScenarioStory
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 12.843 s <<< FAILURE! - in org.Linistitii2.scenarios.ProductManipulationScenarioStory
+searching_and_manipulating_product[0](org.Linistitii2.scenarios.ProductManipulationScenarioStory)  Time elapsed: 10.273 s  <<< ERROR!
+org.openqa.selenium.StaleElementReferenceException: 
+The element with the reference 9e717936-6560-49de-bf5a-2d93ade35be9 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'R7MIRI', ip: '192.168.1.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 126.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240509170740, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 6812, moz:profile: C:\Users\Mircea\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 0a591f95-902a-41bd-99f9-54cd9c014f70
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'R7MIRI', ip: '192.168.1.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: unknown
+	at org.Linistitii2.scenarios.ProductManipulationScenarioStory.opens_first_product_and_adds_to_cart_should_display_success(ProductManipulationScenarioStory.java:48)
+	at org.Linistitii2.scenarios.ProductManipulationScenarioStory.searching_and_manipulating_product(ProductManipulationScenarioStory.java:36)
+
